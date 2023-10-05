@@ -1,0 +1,21 @@
+/* Additional CSS styles for Company component */
+.d-flex.align-items-center.gap-1 {
+    font-size: 1rem; /* Adjust the font size as needed */
+    color: #0a2b1e; /* Change the text color */
+    font-weight: 500;
+    margin-bottom: 10px; /* Add margin as needed */
+    transition: color 0.3s, transform 0.3s; /* Add transition for color and transform */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .d-flex.align-items-center.gap-1 i {
+    font-size: 1.2rem; /* Adjust the icon size as needed */
+    margin-right: 5px; /* Add spacing between icon and text */
+  }
+  
+  /* Hover effect */
+  .d-flex.align-items-center.gap-1:hover {
+    color: #17bf9e; /* Change text color on hover */
+    transform: scale(1.1); /* Scale the text on hover */
+  }
+  

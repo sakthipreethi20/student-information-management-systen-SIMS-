@@ -1,0 +1,32 @@
+/* Additional CSS styles for the Features component */
+.single__feature {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.single__feature h6 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.single__feature p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Additional styling for the icon */
+.single__feature h2 i {
+  font-size: 2.5rem;
+  color: #007bff; /* Change the icon color */
+}
+
+/* Hover effect for the feature cards */
+.single__feature:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}

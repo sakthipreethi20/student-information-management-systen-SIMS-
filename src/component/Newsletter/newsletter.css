@@ -1,0 +1,40 @@
+.newsletter {
+  background-color: #f6f9fc;
+  padding: 50px 0;
+}
+
+.newsletter h2 {
+  font-weight: 600;
+  color: #0a2b1e;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.subscribe input {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.subscribe button {
+  background-color: #17bf9e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe button:hover {
+  background-color: #128c7e;
+}

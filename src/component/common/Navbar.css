@@ -1,0 +1,32 @@
+/* Navbar styles */
+.navbar {
+    background-color: #e5f5f3; /* Background color */
+  }
+  
+  .navbar-brand {
+    font-size: 24px; /* Brand font size */
+    font-weight: bold;/* Brand font weight */
+    font-style: italic; 
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #310303; /* Toggler icon color */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #2e0303 !important; /* Nav link text color */
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    /* color: #8f467f !important; /* Nav link text color on hover 
+    text-decoration: none; Underline on hover */
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* Active link styles */
+  .nav-item.active .nav-link {
+    font-weight: bold; /* Active link font weight */
+  }
+  
